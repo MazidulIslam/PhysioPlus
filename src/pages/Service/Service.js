@@ -6,12 +6,12 @@ const Service = ({ service }) => {
   const { id, img, title, department } = service;
   return (
     <div>
-      <div class="col">
-        <div class="card shadow-lg rounded">
-          <img src={img} class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h3 class="card-title">{title}</h3>
-            <h5 class="card-title">{department}</h5>
+      <div className="col">
+        <div className="card shadow-lg rounded">
+          <img src={img} className="card-img-top" alt="..." />
+          <div className="card-body">
+            <h3 className="card-title">{title}</h3>
+            <h5 className="card-title">{department}</h5>
             <Link to={`/service/${id}`}>
               <button className="btn btn-warning">See Details</button>
             </Link>

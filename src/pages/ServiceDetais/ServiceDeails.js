@@ -18,15 +18,19 @@ const ServiceDeails = () => {
 
   return (
     <div>
-      <div class="row row-cols-1 row-cols-md-1 g-5 mx-5 mb-5 container mx-auto">
-        <div class="col">
-          <h1 class="card-title my-5 text-center text-info">Service</h1>
-          <div class="card">
-            <img src={serviceDetails?.img} class="card-img-top" alt="" />
-            <div class="card-body">
-              <h4 class="card-title text-success">{serviceDetails?.title}</h4>
-              <h5 class="card-title text-info">{serviceDetails?.department}</h5>
-              <p class="card-text">{serviceDetails?.description}</p>
+      <div className="row row-cols-1 row-cols-md-1 g-5 mx-5 mb-5 container mx-auto">
+        <div className="col">
+          <h1 className="card-title my-5 text-center text-info">Service</h1>
+          <div className="card">
+            <img src={serviceDetails?.img} className="card-img-top" alt="" />
+            <div className="card-body">
+              <h4 className="card-title text-success">
+                {serviceDetails?.title}
+              </h4>
+              <h5 className="card-title text-info">
+                {serviceDetails?.department}
+              </h5>
+              <p className="card-text">{serviceDetails?.description}</p>
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ const SuccessStory = () => {
         <h2 className="pt-5">Our Success Story</h2>
         <div className="mx-auto border border-success w-75 m-5"></div>
         <div>
-          <div class="row row-cols-1 row-cols-md-2 g-4 mb-5 container mx-auto">
+          <div className="row row-cols-1 row-cols-md-2 g-4 mb-5 container mx-auto">
             {stories.map((story) => (
               <Story key={story.id} story={story}></Story>
             ))}

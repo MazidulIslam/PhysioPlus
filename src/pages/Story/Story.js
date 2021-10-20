@@ -6,12 +6,12 @@ const Story = ({ story }) => {
 
   return (
     <div>
-      <div class="col">
-        <div class="card shadow-lg rounded">
-          <img src={img} class="card-img-top rounded" alt="..." />
-          <div class="card-body">
-            <h3 class="card-title">{name}</h3>
-            <p class="card-title">
+      <div className="col">
+        <div className="card shadow-lg rounded">
+          <img src={img} className="card-img-top rounded" alt="..." />
+          <div className="card-body">
+            <h3 className="card-title">{name}</h3>
+            <p className="card-title">
               <span className="fs-1">❝</span>
               {speech}
               <br />
