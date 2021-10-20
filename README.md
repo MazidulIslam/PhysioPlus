@@ -25,9 +25,6 @@ Top class latest and evidence-based physiotherapy treatment from the comfort of 
 - Private Route
 - Context Api
 
-In the project directory, you can run:
+* Create json file and host it on online
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### To view this project go to the link above or in about section . If you use this project you need to clone it first and then on the cmd or editor cmd type npm install . this will dowoload the dependency of this projects automatically and npm start for run the project.
