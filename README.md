@@ -25,7 +25,7 @@ Top class latest and evidence-based physiotherapy treatment from the comfort of 
 - Private Route
 - Context Api
 
-> Create json file and host it on online
+> Createed json file and host it on online
 
 #### Note: Service, Therapists, Contact routes are private route and you need to login to visit those route. When you logged, make Appointment and Logout well appear.
 
