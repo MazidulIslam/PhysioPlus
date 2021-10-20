@@ -1,8 +1,9 @@
 import React from "react";
+import "./slider.css";
 
 const Slider = () => {
   return (
-    <div className="">
+    <div className="slider-height">
       {/* slider section  */}
       <div className="row">
         <div className="col-md-6 col-sm-12 d-flex flex-col align-items-center">
@@ -42,32 +43,32 @@ const Slider = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="https://i.ibb.co/Y2h833Z/Shot-of-a-senior-woman-being-treated-by-a-physiotherapist.jpg"
+                  src="https://i.ibb.co/BsVwV57/consult-Mesa-de-trabajo-1.jpg"
                   className="d-block w-100"
                   alt="..."
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h1>Personalised Treatment</h1>
+                  <h1 className="text-success fs-1 ">Personalised Treatment</h1>
                 </div>
               </div>
               <div className="carousel-item">
                 <img
-                  src="https://i.ibb.co/vZHfFHy/Physiotherapy-Knee-Injury-Rehab-And-Massage-With-Face-Mask.jpg"
+                  src="https://i.ibb.co/C1mwwgX/Podiatrist-examining-ankle-and-foot-of-female-patient-Woman-on-crutches-with-plaster-on-leg-consulti.jpg"
                   className="d-block w-100"
                   alt="..."
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h1>Trained Therapists</h1>
+                  <h1 className="text-success fs-1">Trained Therapists</h1>
                 </div>
               </div>
               <div className="carousel-item">
                 <img
-                  src="https://i.ibb.co/FBVcqPQ/Close-up-of-female-osteopath-doing-shoulder-blade-therapy-on-young-woman.jpg"
+                  src="https://i.ibb.co/hXsXcst/Woman-with-injured-broken-leg-in-plaster-cast-sitting-in-doctor-office-taking-X-ray-and-crutch-Vecto.jpg"
                   className="d-block w-100"
                   alt="..."
                 />
                 <div className="carousel-caption d-none d-md-block">
-                  <h1>Experienced Therapists</h1>
+                  <h1 className="text-success fs-1">Experienced Therapists</h1>
                 </div>
               </div>
             </div>
