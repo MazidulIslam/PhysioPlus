@@ -5,7 +5,6 @@ import AuthProvider from "./context/AuthProvider";
 import Footer from "./pages/Footer/Footer";
 import Header from "./pages/Header/Header";
 import Home from "./pages/Home/Home";
-// import Layout from "./pages/Layout/Layout";
 import Login from "./pages/Login/Login";
 import NotFound from "./pages/NotFound/NotFound";
 import Registration from "./pages/Registration/Registration";
@@ -15,6 +14,7 @@ import PrivateRoute from "./pages/Login/PrivateRoute/PrivateRoute";
 import TherapistDetails from "./pages/TherapistDetails/TherapistDetails";
 import SuccessStory from "./pages/SuccessStory/SuccessStory";
 import Contact from "./pages/Contact/Contact";
+import MakeAppointment from "./pages/MakeAppointment/MakeAppointment";
 
 function App() {
   return (
@@ -49,6 +49,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path="/contact">
               <Contact></Contact>
+            </PrivateRoute>
+            <PrivateRoute path="/appointment">
+              <MakeAppointment></MakeAppointment>
             </PrivateRoute>
             <Route path="/story">
               <SuccessStory></SuccessStory>

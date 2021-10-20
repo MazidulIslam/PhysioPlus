@@ -1,9 +1,14 @@
 import React from "react";
 import { Container, Nav, Navbar, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
+
 import useAuth from "../../hooks/useAuth";
 
 const Header = () => {
+  const history = useHistory();
+  const handleAppointMentButton = () => {
+    history.push("/appointment");
+  };
   const { user, logOut } = useAuth();
   return (
     <>
@@ -27,11 +32,19 @@ const Header = () => {
             </Nav.Link>
           </Nav>
 
+          {user?.uid ? (
+            <Button onClick={handleAppointMentButton} variant="primary">
+              Make Appointment
+            </Button>
+          ) : (
+            ""
+          )}
           <Navbar.Collapse className="justify-content-end">
             <Navbar.Text className="pe-3">
               {user?.displayName || user.email}
             </Navbar.Text>
           </Navbar.Collapse>
+
           {user?.uid ? (
             <Button onClick={logOut} variant="outline-danger">
               Logout

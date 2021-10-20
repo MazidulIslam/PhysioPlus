@@ -7,6 +7,8 @@ const Contact = () => {
       <div className="row">
         <div className="col-md-6 col-sm-12 m3">
           <h3>Physio Plus</h3>
+          <br />
+          <br />
           <p>
             <strong>Address :</strong>
             {"  995 Villa Street, Mountain View, CA 94041"}
