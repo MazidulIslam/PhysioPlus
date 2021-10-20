@@ -1,9 +1,15 @@
-import React from "react";
+import Services from "../Services/Services";
+import Slider from "../Slider/Slider";
+import SuccessStory from "../SuccessStory/SuccessStory";
+import Therapists from "../Therapists/Therapists";
 
 const Home = () => {
   return (
-    <div>
-      <h2>this is Home</h2>
+    <div className="row">
+      <Slider />
+      <Services></Services>
+      <Therapists></Therapists>
+      <SuccessStory></SuccessStory>
     </div>
   );
 };
